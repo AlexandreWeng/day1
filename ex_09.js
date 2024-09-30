@@ -12,11 +12,9 @@ type = "Integer";
 else if (typeof input_var==="number"){
 type = "Float";
 }
-displayThisText("The variable value is") 
-displayThisText(input_var)
-displayThisText("Its type is ")
-displayThisText(type)
+displayThisText("The variable value is"+input_var ) 
+displayThisText("Its type is "+ type)
 
 if (input_var === 42 || input_var === "42") {
-displayThisText("C'est le sens de la vie.")
+displayThisText("It is the meaning of life")
 }
